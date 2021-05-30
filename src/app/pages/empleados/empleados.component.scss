@@ -1,0 +1,51 @@
+mat-form-field {
+	width: 100%;
+	padding: 10px 20px;
+}
+
+form{
+	text-align: center;
+	background-color: white;
+	border-radius: 20px;
+	margin: 10vh 5vw;
+	padding: 5vh 0;
+}
+
+h1{
+	color: #000000 !important;
+	font-size: 32px !important;
+}
+.buttonSendInformation {
+	width: auto;
+	height: auto;
+	border-radius: 5px;
+	//Aspecto visual del btn
+	border: 1px solid black;
+	color: black;
+	background-color: white;
+	//Texto en el btn
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 18px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #000000;
+	//Espacio del btn
+	margin-top: 5vh;
+	padding: 10px 15px;
+  
+	//Btn Deshabilitado
+	&:disabled {
+	  background-color: #E5E5E5;
+	  border: 1px solid #98989A;
+	  color: #98989A;
+	  cursor: not-allowed;
+	}
+  
+	&:hover:enabled {
+	  background-color: #98989A;
+	  border: 1px solid #98989A;
+	  color: white;
+	}
+  }

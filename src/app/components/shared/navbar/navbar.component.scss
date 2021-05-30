@@ -1,0 +1,47 @@
+nav{
+	background-color: #4285F4;
+	text-align: center;
+	ul{
+		margin: 5px auto;
+		li{
+			a{
+				margin: 0 20px;
+				color: white;
+				font-size: 1.1em;
+				&:hover{
+					color: #563d7c;
+				}
+			}
+		}
+	}
+}
+
+//Css para tablets y celulares
+@media (max-width: 991px) {
+	.dropdown-menu .dropdown-menu{
+		margin-left:0.7rem;
+		margin-right:0.7rem;
+		margin-bottom: .5rem;
+	}
+	.container-fluid{
+		margin: 0 10vw;
+
+	}
+	
+	.navbar-toggler {
+		border-color: #3C1053;
+	} 
+	a{
+		font-size: 1.3em;
+		color: #000;
+		&:hover{
+			color: #3C1053;
+		}
+	}
+	.dropdown-menu{
+		overflow: hidden;
+	}
+	button{
+		margin: 0 auto;
+	}
+}
